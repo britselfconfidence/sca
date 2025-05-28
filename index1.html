@@ -1,5 +1,9 @@
-<html>
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Self-Confidence Academy</title>
   <style>
     body {
@@ -13,11 +17,11 @@
     }
     .container {
       display: flex;
-      background-color: white;
       max-width: 1000px;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      background-color: white;
     }
-    .left, .right {
+    .left {
       flex: 1;
     }
     .left img {
@@ -27,7 +31,8 @@
       display: block;
     }
     .right {
-      background-color: #eeecec;
+      flex: 1;
+      background-color: #eeeeec;
       padding: 40px;
       display: flex;
       flex-direction: column;
@@ -35,17 +40,30 @@
     }
     .right h1 {
       font-size: 2em;
-      margin-bottom: 20px;
+      margin: 0;
+    }
+    .right h2 {
+      font-size: 2em;
+      font-weight: bold;
+      margin-top: 0.3em;
     }
     .right p {
-      font-size: 1.2em;
+      margin-top: 30px;
+      font-size: 1em;
+      color: #444;
     }
   </style>
 </head>
 <body>
   <div class="container">
     <div class="left">
-      <img src="./katka-sw.jpg" alt="Katka Salandova" />
+      <img src="katka-sw.jpg" alt="Self-Confidence Academy" />
     </div>
     <div class="right">
-
+      <h1>WE DON'T BUILD CONFIDENCE -</h1>
+      <h2>WE UNCOVER IT.</h2>
+      <p>Self-Confidence Academy coming soon!</p>
+    </div>
+  </div>
+</body>
+</html>
